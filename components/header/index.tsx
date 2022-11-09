@@ -67,12 +67,12 @@ const Header = ({ isErrorPage }: HeaderType) => {
           className={`site-nav ${menuOpen ? "site-nav--open" : ""}`}
         >
           <Link href="/products">
-            <a>Products</a>
+            <a>Universitarios</a>
           </Link>
-          <a href="#">Inspiration</a>
-          <a href="#">Rooms</a>
+          <a href="#">Uniformes</a>
+          <a href="#">Geek</a>
           <button className="site-nav__btn">
-            <p>Account</p>
+            <p>Conta</p>
           </button>
         </nav>
 
