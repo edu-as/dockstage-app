@@ -7,7 +7,7 @@ const Breadcrumb = () => (
             <i className="icon-home"></i>
           </a>
         </li>
-        <li>All Products</li>
+        <li>Todos os produtos</li>
       </ul>
     </div>
   </section>
