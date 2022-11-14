@@ -1,4 +1,4 @@
-import Rater from 'react-rater';
+/*import Rater from 'react-rater';
 import createMarkup from 'utils/markup';
 import { ReviewType } from 'types';
 
@@ -29,4 +29,4 @@ const ReviewsList = ({ reviews }: ReviewsListType) => {
 };
   
 export default ReviewsList;
-    
+*/

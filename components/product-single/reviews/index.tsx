@@ -1,4 +1,4 @@
-import ReviewsList from './reviews-list';
+/*import ReviewsList from './reviews-list';
 import Punctuation from './punctuation';
 import { ProductType } from 'types';
 
@@ -25,4 +25,4 @@ const Reviews = ({ show, product }: ReviewsProductType) => {
 };
   
 export default Reviews;
-    
+*/

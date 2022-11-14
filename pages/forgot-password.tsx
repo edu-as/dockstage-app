@@ -34,9 +34,8 @@ const ForgotPassword = () => {
           <div className="form-block">
             <h2 className="form-block__title">Esqueceu sua senha?</h2>
             <p className="form-block__description">
-              Digite seu e-mail ou número de telefone e recupere sua conta{" "}
+              Digite o seu e-mail ou número de telefone para recuperar sua conta
             </p>
-
             <form className="form" onSubmit={handleSubmit(onSubmit)}>
               <div className="form__input-row">
                 <input
@@ -53,13 +52,13 @@ const ForgotPassword = () => {
 
                 {errors.email && errors.email.type === "required" && (
                   <p className="message message--error">
-                    This field is required
+                    Este campo é obrigatório
                   </p>
                 )}
 
                 {errors.email && errors.email.type === "pattern" && (
                   <p className="message message--error">
-                    Please write a valid email
+                    por favor escreva um e-mail válido
                   </p>
                 )}
               </div>
@@ -74,7 +73,7 @@ const ForgotPassword = () => {
                 />
                 {errors.password && errors.password.type === "required" && (
                   <p className="message message--error">
-                    This field is required
+                    Este campo é obrigatório
                   </p>
                 )}
               </div>
@@ -83,7 +82,7 @@ const ForgotPassword = () => {
                 type="submit"
                 className="btn btn--rounded btn--yellow btn-submit"
               >
-                Reset password
+                Resetar sua senha
               </button>
             </form>
           </div>

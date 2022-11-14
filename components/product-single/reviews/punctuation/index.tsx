@@ -1,4 +1,4 @@
-import Rater from 'react-rater';
+/*import Rater from 'react-rater';
 import { PunctuationType } from 'types';
 
 const Punctuation = ({ votes, punctuation, countOpinions }: PunctuationType) => { 
@@ -36,4 +36,4 @@ const Punctuation = ({ votes, punctuation, countOpinions }: PunctuationType) => 
 };
   
 export default Punctuation;
-    
+*/

@@ -54,7 +54,7 @@ const PageIntro = () => {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Entrega rádipa</h4>
+                <h4>Entrega rápida</h4>
                 <p>Cliente sempre satisfeito</p>
               </div>
             </li>
@@ -62,7 +62,7 @@ const PageIntro = () => {
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Produto autentico</h4>
+                <h4>Produto autêntico</h4>
                 <p>Qualidade unica</p>
               </div>
             </li>
