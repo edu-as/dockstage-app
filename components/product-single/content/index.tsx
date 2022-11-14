@@ -74,7 +74,7 @@ const Content = ({ product }: ProductContent) => {
 
       <div className="product-content__filters">
         <div className="product-filter-item">
-          <h5>Color:</h5>
+          <h5>Cores:</h5>
           <div className="checkbox-color-wrapper">
             {productsColors.map((type) => (
               <CheckboxColor
@@ -104,7 +104,7 @@ const Content = ({ product }: ProductContent) => {
           </div>
         </div>
         <div className="product-filter-item">
-          <h5>Quantity:</h5>
+          <h5>Selecione a quantidade:</h5>
           <div className="quantity-buttons">
             <div className="quantity-button">
               <button

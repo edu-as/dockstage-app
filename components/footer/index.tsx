@@ -44,10 +44,10 @@ const Footer = () => {
             <ul>
               <li>Contato</li>
               <li>
-                <a href="#">store@uikit.com</a>
+                <a href="#">contato@dockstage.com</a>
               </li>
               <li>
-                <a href="#">Hotline: +1 131 138 138</a>
+                <a href="#">Telefone: +55 (44)99152-6689</a>
               </li>
             </ul>
           </div>
