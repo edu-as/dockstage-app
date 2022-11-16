@@ -157,10 +157,10 @@ const CheckoutPage = () => {
             </a>
             <div className="cart-actions__items-wrapper">
               <button type="button" className="btn btn--rounded btn--border">
-                Continua comprando
+                Continuar comprando
               </button>
               <button type="button" className="btn btn--rounded btn--yellow">
-                Prossiga com o pagamento
+                Prossegir com o pagamento
               </button>
             </div>
           </div>

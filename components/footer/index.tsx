@@ -19,22 +19,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#">
-                  <i className="icon-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="icon-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
                   <i className="icon-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="icon-youtube-play"></i>
                 </a>
               </li>
             </ul>
