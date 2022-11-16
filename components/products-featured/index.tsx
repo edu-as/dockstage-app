@@ -14,7 +14,6 @@ const ProductsFeatured = () => {
             Veja todos
           </a>
         </header>
-
         <ProductsCarousel products={data} />
       </div>
     </section>
