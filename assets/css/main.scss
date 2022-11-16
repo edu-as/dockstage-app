@@ -611,6 +611,7 @@ h1,h2,h3,h4,h5 {
           }
           p {
             font-size: 12px;
+            margin-top: 20px;
             line-height: 135%;
           }
         }
@@ -1084,6 +1085,7 @@ h1,h2,h3,h4,h5 {
       }
     }
     p {
+      margin: 15px 0px 0px 0px;
       font-size: 13px;
       line-height: 190%;
     }
@@ -1683,7 +1685,7 @@ h1,h2,h3,h4,h5 {
       width: 100%;
       margin-bottom: 60px;
       @include breakpoint(phone) {
-        width: 48%;
+        width: 100%;
         margin-bottom: 0;
       }
       i {
@@ -1707,6 +1709,7 @@ h1,h2,h3,h4,h5 {
       }
       p {
         color: #000;
+        padding: 20px 200px 0px 200px;
         font-size: 13px;
         line-height: 145%;
         text-align: left;

@@ -36,9 +36,7 @@ const LoginPage = () => {
           <div className="form-block">
             <h2 className="form-block__title">Entrar</h2>
             <p className="form-block__description">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+              Se inscreva para garantir melhor uso da nossa plataforma
             </p>
 
             <form className="form" onSubmit={handleSubmit(onSubmit)}>
@@ -103,13 +101,13 @@ const LoginPage = () => {
                   href="/forgot-password"
                   className="form__info__forgot-password"
                 >
-                  Forgot password?
+                  Esqueceu a senha?
                 </a>
               </div>
 
               <div className="form__btns">
                 <button type="button" className="btn-social fb-btn">
-                  <i cla ssName="icon-facebook"></i>Facebook
+                  <i className="icon-facebook"></i>Facebook
                 </button>
                 <button type="button" className="btn-social google-btn">
                   <img src="/images/icons/gmail.svg" alt="gmail" /> Gmail

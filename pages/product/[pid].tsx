@@ -55,7 +55,8 @@ const Product = ({ product }: ProductPageType) => {
               >
                 Descrição
               </button>
-              {/*<button
+              {/* Buttom review
+              <button
                 type="button"
                 onClick={() => setShowBlock("reviews")}
                 className={`btn btn--rounded ${
